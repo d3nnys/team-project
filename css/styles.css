@@ -1,0 +1,58 @@
+:root {
+  --main-text-color: #000000;
+  --background-color: #ffffff;
+  --secondary-background-color: #f1f1f2;
+  --button-color: #f7941e;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.38;
+
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1355px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-text-list {
+  display: flex;
+}
+.header-item:not(:last-child) {
+  margin-right: 31px;
+}
