@@ -1,120 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
     <!-- cap -->
-    <header>
-        <nav>
-            <a href="">Logo</a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Blogs</a></li>
-            </ul>
+    <header class="header">
+      <div class="header-box container">
+        <nav class="header-nav">
+          <a class="header-logo" href="">Logo</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">About Us</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">Services</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">Blogs</a>
+            </li>
+          </ul>
         </nav>
-        <button type="button">Gift Finder</button>
+        <button class="header-btn" type="button">Gift Finder</button>
+      </div>
     </header>
     <main>
-        <!-- hero -->
-        <section>
-            <ul>
-                <li>
-                    <h1>Find a gift for your wife or girlfriend</h1>
-                    <p>Struggling to find a gift for your wife or girlfriend?
-                    No problem!</p>
-                    <button type="button">Find gift now</button>
-                    <img src="images/hero-img-1.jpg" alt="couple" width="720" height="700">
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="images/hero-img-2.jpg" alt="card" width="720" height="600">
-                    <h2>How we work</h2>
-                    <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do
-                    is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift
-                    options.</p>
-                    <button type="button">Learn More</button>
-                </li>
-            </ul>
-        </section>
-        <!-- galery -->
-        <section>
-            <h2>Gifts for all Occasions</h2>
-            <p>“Try our web app to find the best gifts for all occasions”</p>
-            <ul>
-                <li>
-                    <img src="images/galery-1.jpg" alt="happy birthday" width="270" height="270">
-                    <h3>Birthday</h3>
-                    <a href="">See More ›</a>
-                </li>
-                <li>
-                    <img src="images/galery-2.jpg" alt="shoes" width="270" height="270">
-                    <h3>Anniversary</h3>
-                    <a href="">See More ›</a>
-                </li>
-                <li>
-                    <img src="images/galery-3.jpg" alt="gifts" width="270" height="270">
-                    <h3>Valentine's Day</h3>
-                    <a href="">See More ›</a>
-                </li>
-                <li>
-                    <img src="images/galery-4.jpg" alt="christmas tree" width="270" height="270">
-                    <h3>Christmas</h3>
-                    <a href="">See More ›</a>
-                </li>
-            </ul>
-        </section>
-        <!-- gift -->
-        <section>
-            <ul>
-                <li><h2>Ready to get started?</h2></li>
-                <li><p>Sign up or contact us</p></li>
-                <li><button type="button">Find gift now</button></li>
-                <li><button type="button">how it works</button></li>
-            </ul>
-        </section>
-        <!-- blog -->
-        <section>
-            <h2>Our Best Blogs Ever</h2>
-            <p>“Try our blog to find the best tips and tricks to select your gift”</p>
-            <ul>
-                <li>
-                    <img src="images/wedding.jpg" alt="wedding" width="400" height="370">
-                    <p>Mr. John Doe</p>
-                    <h2>The best way to wish your wife</h2>
-                    <a href="">Read More</a>
-                </li>
-                <li>
-                    <h3>Database to find the gifts for your girlfriend</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="">Read More</a>
-                </li>
-                <li>
-                    <h3>How Artificial Intelligence read your mind to find the best gift</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="">Read More</a>
-                </li>
-            </ul>
-        </section>
+      <!-- hero -->
+      <section class="hero-section">
+        <div class="hero-section__box container">
+          <ul class="hero-list">
+            <li class="hero-item hero-item__top">
+              <div class="hero-text__top">
+                <h1>Find a gift for your wife or girlfriend</h1>
+                <p>
+                  Struggling to find a gift for your wife or girlfriend? No
+                  problem!
+                </p>
+                <button type="button">Find gift now</button>
+              </div>
+            </li>
+            <li class="hero-item">
+              <img
+                src="images/hero-img-1.jpg"
+                alt="couple"
+                width="700"
+                height="700"
+              />
+            </li>
+          </ul>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <img
+                src="images/hero-img-2.jpg"
+                alt="card"
+                width="700"
+                height="700"
+              />
+            </li>
+            <li class="hero-item hero-item__bottom">
+              <div class="hero-text__bottom">
+                <h2>How we work</h2>
+                <p>
+                  We’ve actually already asked hundreds of women what they want,
+                  and made a database with the results. All you have to do is
+                  take our short survey that only takes seconds, and our
+                  proprietary algorithm will match you with a few perfect gift
+                  options.
+                </p>
+                <button type="button">Learn More</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- galery -->
+      <section>
+        <h2>Gifts for all Occasions</h2>
+        <p>“Try our web app to find the best gifts for all occasions”</p>
+        <ul>
+          <li>
+            <img
+              src="images/galery-1.jpg"
+              alt="happy birthday"
+              width="270"
+              height="270"
+            />
+            <h3>Birthday</h3>
+            <a href="">See More›</a>
+          </li>
+          <li>
+            <img
+              src="images/galery-2.jpg"
+              alt="shoes"
+              width="270"
+              height="270"
+            />
+            <h3>Anniversary</h3>
+            <a href="">See More›</a>
+          </li>
+          <li>
+            <img
+              src="images/galery-3.jpg"
+              alt="gifts"
+              width="270"
+              height="270"
+            />
+            <h3>Valentine's Day</h3>
+            <a href="">See More ›</a>
+          </li>
+          <li>
+            <img
+              src="images/galery-4.jpg"
+              alt="christmas tree"
+              width="270"
+              height="270"
+            />
+            <h3>Christmas</h3>
+            <a href="">See More ›</a>
+          </li>
+        </ul>
+      </section>
+      <!-- gift -->
+      <section>
+        <ul>
+          <li><h2>Ready to get started?</h2></li>
+          <li><p>Sign up or contact us</p></li>
+          <li><button type="button">Find gift now</button></li>
+          <li><button type="button">how it works</button></li>
+        </ul>
+      </section>
+      <!-- blog -->
+      <section>
+        <h2>Our Best Blogs Ever</h2>
+        <p>
+          “Try our blog to find the best tips and tricks to select your gift”
+        </p>
+        <ul>
+          <li>
+            <img
+              src="images/wedding.jpg"
+              alt="wedding"
+              width="400"
+              height="370"
+            />
+            <p>Mr. John Doe</p>
+            <h2>The best way to wish your wife</h2>
+            <a href="">Read More</a>
+          </li>
+          <li>
+            <h3>Database to find the gifts for your girlfriend</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore...
+            </p>
+            <a href="">Read More</a>
+          </li>
+          <li>
+            <h3>
+              How Artificial Intelligence read your mind to find the best gift
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore...
+            </p>
+            <a href="">Read More</a>
+          </li>
+        </ul>
+      </section>
     </main>
+    <!-- links -->
     <footer>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-        </ul>
-        <a href="">logo</a>
-        <ul>
-            <li><a href="">Service</a></li>
-            <li><a href="">Blog</a></li>
-        </ul>
-        <p>© 2010 — 2020<span>Privacy — Terms</span></p>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+      <a href="">logo</a>
+      <ul>
+        <li><a href="">Service</a></li>
+        <li><a href="">Blog</a></li>
+      </ul>
+      <p>© 2010 — 2020<span>Privacy — Terms</span></p>
     </footer>
-</body>
+  </body>
 </html>
