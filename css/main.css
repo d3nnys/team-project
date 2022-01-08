@@ -348,10 +348,17 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-item:not(:last-child) {
   margin-right: 31px;
+}
+
+.header-item:focus, .header-item:hover {
+  color: #f7941e;
 }
 
 .header-btn {
@@ -497,6 +504,61 @@ img {
   background-color: #000000;
   color: #f7941e;
   border-color: #f7941e;
+}
+
+.galery-section__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 96px;
+  padding-bottom: 137px;
+}
+
+.galery-section__box h2 {
+  font-size: 32px;
+  line-height: 1.1875;
+  margin-bottom: 23px;
+}
+
+.galery-section__box p {
+  margin-bottom: 64px;
+}
+
+.galery-section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.galery-section__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.galery-bottom__box {
+  padding: 24px;
+}
+
+.galery-bottom__box h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 74px;
+}
+
+.galery-bottom__box a {
+  font-size: 14px;
+  line-height: 1.3571;
+  color: #000000;
+}
+
+.galery-bottom__box a:focus, .galery-bottom__box a:hover {
+  color: #f7941e;
 }
 
 .header {

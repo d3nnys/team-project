@@ -25,11 +25,17 @@
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-item {
   &:not(:last-child) {
     margin-right: 31px;
+  }
+
+  &:focus,
+  &:hover {
+    color: rgba(247, 148, 30, 1);
   }
 }
 
