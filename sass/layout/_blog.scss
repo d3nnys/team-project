@@ -1,0 +1,17 @@
+.blog-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-top: 88px;
+  padding-bottom: 80px;
+
+  // & h2 {
+  //   margin-bottom: 23px;
+  // }
+
+  // & p {
+  //   margin-bottom: 71px;
+  // }
+}
